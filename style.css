@@ -1,0 +1,428 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #243b40;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* CABEÇALHO */
+
+.topo {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dce8e8;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #123d48;
+}
+
+.logo b {
+    margin-right: 3px;
+}
+
+.logo-gota {
+    color: #16a6b9;
+    font-size: 17px;
+    margin-right: 8px;
+}
+
+.logo-meio {
+    color: #167d98;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: #36545b;
+    margin-left: 24px;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #1597aa;
+}
+
+
+/* APRESENTAÇÃO PRINCIPAL */
+
+.hero {
+    background-color: #edf8f8;
+    padding: 65px 0;
+}
+
+.hero-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-texto {
+    width: 48%;
+}
+
+.subtitulo {
+    color: #168b9d;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #123d48;
+}
+
+.destaque {
+    color: #168b9d;
+}
+
+.hero-texto > p {
+    font-size: 17px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #147f91;
+    color: #ffffff;
+    padding: 15px 22px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #105e6b;
+}
+
+.hero-imagem {
+    width: 45%;
+    position: relative;
+}
+
+.hero-imagem img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.selo {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.selo-texto {
+    color: #147f91;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/* SEÇÕES DA PÁGINA */
+
+.secao {
+    padding: 65px 0;
+}
+
+.secao h2 {
+    font-size: 32px;
+    color: #123d48;
+}
+
+.introducao {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.secao-clara {
+    background-color: #f3f9f9;
+}
+
+
+/* IMPORTÂNCIA DA ÁGUA */
+
+.importancia-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.importancia-texto {
+    width: 52%;
+}
+
+.importancia-texto p {
+    font-size: 16px;
+}
+
+.cartao-frase {
+    width: 35%;
+    background-color: #e4f4f4;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #d6e5e5;
+}
+
+.aspas {
+    color: #168b9d;
+    font-size: 55px;
+    margin: 0;
+}
+
+.frase {
+    color: #123d48;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.linha-decorativa {
+    width: 55px;
+    height: 4px;
+    background-color: #168b9d;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.assinatura {
+    color: #477078;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+/* CARTÕES DE DICAS */
+
+.dicas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dica-card {
+    width: 43%;
+    background-color: #ffffff;
+    padding: 22px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #dce8e8;
+}
+
+.dica-card:hover {
+    background-color: #eaf7f7;
+}
+
+.numero {
+    color: #168b9d;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dica-card h3 {
+    color: #123d48;
+    font-size: 20px;
+}
+
+.dica-card p {
+    font-size: 15px;
+}
+
+
+/* TABELA */
+
+.tabela-container {
+    width: 100%;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #147f91;
+    color: #ffffff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #d6e5e5;
+}
+
+.observacao {
+    color: #587178;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+
+/* VÍDEO */
+
+.midia {
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+/* CONVITE À PARTICIPAÇÃO */
+
+.participe-caixa {
+    background-color: #e4f4f4;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.participe-caixa h2 {
+    color: #123d48;
+}
+
+.participe-caixa p {
+    font-size: 16px;
+}
+
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: #123d48;
+    color: #ffffff;
+    padding: 35px 0;
+}
+
+.rodape-conteudo {
+    text-align: center;
+}
+
+.logo-rodape {
+    justify-content: center;
+    color: #ffffff;
+}
+
+.logo-rodape .logo-meio {
+    color: #65d4df;
+}
+
+.rodape p {
+    font-size: 14px;
+}
+
+.creditos {
+    color: #c2dadd;
+}
+
+
+/* AJUSTES PARA TELAS MENORES */
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .barra {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 18px;
+    }
+
+    .menu a {
+        margin: 8px;
+    }
+
+    .hero-conteudo {
+        flex-direction: column;
+    }
+
+    .hero-texto {
+        width: 100%;
+    }
+
+    .hero-imagem {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .importancia-grid {
+        flex-direction: column;
+    }
+
+    .importancia-texto {
+        width: 100%;
+    }
+
+    .cartao-frase {
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .dica-card {
+        width: 100%;
+    }
+
+    .secao h2 {
+        font-size: 27px;
+    }
+
+    .video iframe {
+        height: 250px;
+    }
+
+    .participe-caixa {
+        padding: 25px;
+    }
+}
